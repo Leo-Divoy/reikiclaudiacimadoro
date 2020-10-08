@@ -1,0 +1,149 @@
+/* line 1, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+header {
+  width: 100%;
+  top: 0;
+  height: 60px;
+  background: #ffffff;
+  border-bottom: solid 3px #7500ac;
+  z-index: 1000; }
+  /* line 8, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px; }
+    /* line 13, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .brand img {
+      min-width: 70%;
+      max-width: 75%; }
+    /* line 17, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .brand .fa-bars {
+      color: #7500ac; }
+  /* line 21, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #a30ce9 0%, #4a006d 100%);
+    overflow-y: hidden;
+    transition: 0.5s; }
+    /* line 31, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .overlay a {
+      padding: 5px;
+      text-decoration: none;
+      font-size: 1.4rem;
+      color: #ffffff;
+      display: block;
+      transition: 0.3s; }
+    /* line 39, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .overlay .closebtn {
+      position: absolute;
+      right: 40px;
+      font-size: 35px; }
+    /* line 44, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .overlay .overlay-content {
+      position: relative;
+      top: 23%;
+      width: 100%;
+      text-align: center; }
+      /* line 49, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+      header .overlay .overlay-content .activo {
+        color: #ff0055; }
+
+/* line 55, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+.overlay a:hover, .overlay a:focus {
+  color: #ff0055; }
+
+@media screen and (min-width: 400px) {
+  /* line 62, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand {
+    padding-top: 5px; } }
+
+@media screen and (min-width: 440px) {
+  /* line 70, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand {
+    padding-top: 3px; } }
+
+@media screen and (min-width: 480px) {
+  /* line 79, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand img {
+    max-width: 70%; } }
+
+@media screen and (min-width: 520px) {
+  /* line 89, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand img {
+    max-width: 65%;
+    min-width: 0; } }
+
+@media screen and (min-width: 560px) {
+  /* line 100, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand img {
+    max-width: 60%;
+    min-width: 0; } }
+
+@media screen and (min-width: 600px) {
+  /* line 111, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand img {
+    max-width: 55%;
+    min-width: 0; } }
+
+@media screen and (min-width: 692px) {
+  /* line 121, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand {
+    padding: 1px; }
+    /* line 123, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .brand img {
+      max-width: 50%; } }
+
+@media screen and (min-width: 768px) {
+  /* line 132, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand {
+    padding-top: 1px; }
+    /* line 134, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .brand img {
+      width: 45%; } }
+
+@media screen and (min-width: 860px) {
+  /* line 143, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand {
+    padding-top: 1px; }
+    /* line 145, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .brand img {
+      max-width: 40%; } }
+
+@media screen and (min-width: 960px) {
+  /* line 154, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand {
+    padding-top: 1px; }
+    /* line 156, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .brand img {
+      max-width: 35%; } }
+
+@media screen and (min-width: 992px) {
+  /* line 165, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand {
+    padding-top: 1px; }
+    /* line 167, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .brand img {
+      max-width: 35%; } }
+
+@media screen and (min-width: 1100px) {
+  /* line 176, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand {
+    padding-top: 7px; }
+    /* line 178, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .brand img {
+      max-width: 25%; } }
+
+@media screen and (min-width: 1200px) {
+  /* line 187, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+  header .brand {
+    padding-top: 1px; }
+    /* line 189, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
+    header .brand img {
+      max-width: 25%; } }
+
+/*# sourceMappingURL=menu.css.map */

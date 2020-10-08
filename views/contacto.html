@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONT QUICKSAND/PHILOSOPHER - GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&family=Philosopher:wght@700&display=swap" rel="stylesheet"> 
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <!-- BOOTSTRAP MENU -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- FAVICON -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+        <link rel="manifest" href="../favicon/site.webmanifest">
+        <!-- CUSTOM STYLES -->
+        <link rel="stylesheet" href="../css/styles.css">
+        <title>Reiki Claudia Cimadoro - Contacto</title>
+    </head>
+
+    <body>
+        <header class="fixed-top">
+            <div class="container">
+                <div class="brand">
+                    <img src="../img/Logo.png" alt="">
+                    <i class="fas fa-bars" style="font-size:30px;cursor:pointer" onclick="openNav()"></i>
+                </div>
+                <nav id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                    <div class="overlay-content">
+                        <a href="../index.html">Inicio</a>
+                        <a href="../views/sobre-mi.html">Sobre mí</a>
+                        <a href="../views/cursos.html">Cursos</a>
+                        <a href="../views/talleres.html">Talleres</a>
+                        <a href="../views/practicas-sesiones.html">Prácticas y Sesiones</a>
+                        <a href="../views/actividades-complementarias.html">Actividades complementarias</a>
+                        <a href="../views/contacto.html" class="activo">Contacto</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="banner__contacto">
+            <div class="texto__contacto">  
+                <h2 class="container">Contacto</h2>
+            </div>
+        </section>
+        <section class="info__contacto">
+            <div class="container">
+                <h3>Buenos Aires</h3>
+                <p>Venezuela 3628, San Justo, La Matanza.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d6562.269399302802!2d-58.58015622575894!3d-34.676549707480575!3m2!1i1024!2i768!4f13.1!4m6!3e3!4m3!3m2!1d-34.6774497!2d-58.5798129!4m0!5e0!3m2!1ses-419!2sar!4v1602041496843!5m2!1ses-419!2sar" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <hr>
+            </div>
+            <div class="container">
+                <h3>La Pampa</h3>
+                <p>Calle 12 Nº 632 entre 13 y 15, General Pico.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d7709.827336821579!2d-63.760322108498926!3d-35.66264219703027!3m2!1i1024!2i768!4f13.1!4m6!3e3!4m3!3m2!1d-35.6630361!2d-63.7587401!4m0!5e0!3m2!1ses-419!2sar!4v1602041341866!5m2!1ses-419!2sar" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <hr>
+            </div> 
+        </section>
+            
+                
+        <section class="banner6">
+            <div class="texto">  
+                <h2 class="container">Redes Sociales</h2>
+            </div>
+        </section>
+        <section class="info1">
+            <a href="https://facebook.com/Alianza-Argentina-de-Maestros-de-Reiki-La-Pampa-1606319326308309/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/lapampa_escueladereikiarg/">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/+5491164035430?text=Me%20gustaría%20recibir%20más%20información" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:info@reiki.com.ar">
+                <i class="far fa-envelope"></i>
+            </a>
+        </section>
+        
+        <section class="footer-links">
+            <form class="formulario container">
+              <div> 
+                <h3>Para más información:</h3>
+              </div>
+              <input type="text" class="formulario__input" placeholder="Nombre" required>
+              <input type="text" class="formulario__input" placeholder="Apellido" required>  
+              <input type="text" class="formulario__input" placeholder="E-mail" required>    
+              <input type="text" class="formulario__input" placeholder="Asunto" required>
+              <select name="Sede" id="sede" class="formulario__input" placeholder="Sede" required>
+                <option value="La Pampa">Sede La Pampa</option>
+                <option value="Buenos Aires"> Sede Buenos Aires</option>
+              </select>
+              <textarea name="mensaje" class="formulario__area" placeholder="Dejame tu consulta" required></textarea>
+              <input type="submit" value="Enviar mensaje" class="formulario__submit">
+            </form>
+        </section>
+    
+        <i class="fas fa-chevron-circle-up" onclick="topFunction()" id="myBtn" title="Volver al inicio"></i>
+        
+        <footer class="footer container">
+            <p>Todos los derechos reservados &copy; - Reiki Claudia Cimadoro - Miembro Profesional de la Alianza Argentina de Maestros de Reiki</p><img src="../img/ALIANZAWEB.png" alt="Alianza">
+          </footer>
+  
+        <script src="../js/menu.js"></script>
+        <script src="../js/btn-inicio.js"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
