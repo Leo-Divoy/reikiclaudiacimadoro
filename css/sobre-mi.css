@@ -36,27 +36,28 @@ section.banner__about {
   /* line 35, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
   .info__about h3 {
     text-align: center;
-    color: #7500ac; }
-  /* line 39, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
+    color: #7500ac;
+    margin-top: 10px; }
+  /* line 40, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
   .info__about h5 {
     text-align: center;
     color: #7500ac; }
-  /* line 43, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
+  /* line 44, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
   .info__about hr {
     border: solid 1px #d193ee; }
-  /* line 46, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
+  /* line 47, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
   .info__about img {
     width: 100%;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
     margin-top: 10px; }
 
 @media (min-width: 992px) {
-  /* line 55, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
+  /* line 56, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
   .info__about .about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 20px; }
-    /* line 59, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
+    /* line 60, ../../Reiki-ClaudiaCimadoro/scss/sobre-mi.scss */
     .info__about .about .container {
       margin-top: 0;
       padding: 34px;

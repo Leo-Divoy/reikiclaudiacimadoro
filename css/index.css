@@ -2,39 +2,81 @@
 section.banner1 {
   background-image: url("../img/banner3.1.jpg");
   min-height: 400px;
-  margin-top: 60px; }
+  margin-top: 60px;
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-/* line 7, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 13, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 section.banner2 {
   background-image: url("../img/about.jpg");
-  min-height: 400px; }
+  min-height: 400px;
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-/* line 12, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 24, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 section.banner3 {
   background-image: url("../img/cursos.jpg");
-  min-height: 400px; }
+  min-height: 400px;
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-/* line 17, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 35, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 section.banner4 {
   background-image: url("../img/talleres.jpg");
-  min-height: 400px; }
+  min-height: 400px;
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-/* line 22, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 46, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 section.banner5 {
   background-image: url("../img/practicas.jpg");
-  min-height: 400px; }
+  min-height: 400px;
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-/* line 27, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 57, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 section.banner6 {
   background-image: url("../img/social.jpg");
-  min-height: 400px; }
+  min-height: 400px;
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-/* line 32, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 68, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 section.banner7 {
   background-image: url("../img/complementarias.jpg");
-  min-height: 400px; }
+  min-height: 400px;
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-/* line 37, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 79, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 .texto1 {
   position: absolute;
   left: 0;
@@ -43,11 +85,11 @@ section.banner7 {
   text-align: center;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.5); }
-  /* line 45, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  /* line 87, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .texto1 h1 {
     font-size: 3.5rem; }
 
-/* line 50, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 92, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 .texto {
   position: absolute;
   left: 0;
@@ -56,11 +98,11 @@ section.banner7 {
   text-align: center;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.5); }
-  /* line 58, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  /* line 100, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .texto h2 {
     font-size: 3.2rem; }
 
-/* line 63, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 105, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 .info1 {
   width: 100%;
   background-color: #ffffff;
@@ -69,26 +111,26 @@ section.banner7 {
   color: #000000;
   text-align: center;
   padding: 20px 5px; }
-  /* line 71, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  /* line 113, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .info1 h3 {
     color: #7500ac; }
-  /* line 74, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  /* line 116, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .info1 i {
     color: #7500ac;
     padding-right: 5px; }
-  /* line 78, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  /* line 120, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .info1 a {
     text-decoration: none;
     color: #000000; }
-    /* line 81, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+    /* line 123, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
     .info1 a i {
       padding-left: 5px;
       font-size: 20px; }
-    /* line 85, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+    /* line 127, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
     .info1 a .fa-facebook-f, .info1 a .fa-instagram,
     .info1 a .fa-whatsapp, .info1 a .fa-envelope {
       font-size: 30px; }
-  /* line 90, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  /* line 132, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .info1 button {
     border-radius: 10px;
     border: #7500ac solid 1px;
@@ -101,16 +143,16 @@ section.banner7 {
     font-weight: 200;
     text-decoration: none;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5); }
-  /* line 103, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  /* line 145, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .info1 button:hover {
     cursor: pointer;
     box-shadow: 0 0 10px 1px rgba(112, 0, 112, 0.5);
     background: #81009b; }
-    /* line 107, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+    /* line 149, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
     .info1 button:hover a {
       color: #ffffff; }
 
-/* line 113, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 155, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 .info2 {
   width: 100%;
   background: #7500ac;
@@ -119,21 +161,21 @@ section.banner7 {
   color: #ffffff;
   text-align: center;
   padding: 20px 5px; }
-  /* line 121, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  /* line 163, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .info2 a {
     text-decoration: none;
     color: #ffffff; }
-    /* line 124, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+    /* line 166, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
     .info2 a i {
       font-size: 20px;
       padding: 10px;
       color: #ffffff; }
-    /* line 129, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+    /* line 171, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
     .info2 a .fa-facebook-f, .info2 a .fa-instagram,
     .info2 a .fa-whatsapp, .info2 a .fa-envelope {
       font-size: 30px;
       color: #ffffff; }
-  /* line 135, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  /* line 177, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .info2 button {
     border-radius: 10px;
     border: #ffffff solid 1px;
@@ -146,30 +188,23 @@ section.banner7 {
     font-weight: 200;
     text-decoration: none;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5); }
-  /* line 148, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  /* line 190, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .info2 button:hover {
     cursor: pointer;
     box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.5);
     background: #ffffff; }
-    /* line 152, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+    /* line 194, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
     .info2 button:hover a {
       color: #000000; }
 
-/* line 158, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+/* line 200, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
 p {
   line-height: 1.5;
   margin: 0; }
 
-/* line 163, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
-.banner1, .banner2,
-.banner3, .banner4,
-.banner5, .banner6,
-.banner7 {
-  position: relative;
-  opacity: 0.6;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+@media (max-width: 768px) {
+  /* line 207, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  .texto h2 {
+    font-size: 2rem; } }
 
 /*# sourceMappingURL=index.css.map */
