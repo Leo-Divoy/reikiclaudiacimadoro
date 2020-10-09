@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px; }
+    padding-top: 8px; }
     /* line 13, ../../Reiki-ClaudiaCimadoro/scss/menu.scss */
     header .brand img {
       min-width: 70%;
