@@ -849,8 +849,8 @@ body {
   font-weight: 400; }
 
 /* line 22, ../../Reiki-ClaudiaCimadoro/scss/styles.scss */
-.container {
-  width: 95%;
+.contenedor {
+  width: 90%;
   margin: auto;
   max-width: 1300px; }
 
