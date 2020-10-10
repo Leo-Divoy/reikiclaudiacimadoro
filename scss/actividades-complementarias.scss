@@ -33,7 +33,7 @@ box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.548);
 border-top: solid 5px #7500ac;
 color: #000000;
 text-align: justify;
-padding: 20px 5px;
+padding: 20px;
     h3 {
     text-align: center;
     color: #7500ac;
@@ -84,7 +84,7 @@ padding: 20px 5px;
 }
 
 .info__complementarias--full {
-padding-top: 20px;
+padding: 20px;
 padding-bottom: 15px;
 text-align: center;
     a {
@@ -95,6 +95,9 @@ text-align: center;
     }
     a:hover {
     border-bottom: solid 2px #ff0055;
+    }
+    h5 {
+    color: #000000;
     }
 }
 /*

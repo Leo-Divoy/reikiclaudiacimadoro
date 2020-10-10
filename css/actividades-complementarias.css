@@ -36,7 +36,7 @@ section.banner__complementarias {
   border-top: solid 5px #7500ac;
   color: #000000;
   text-align: justify;
-  padding: 20px 5px; }
+  padding: 20px; }
   /* line 37, ../../Reiki-ClaudiaCimadoro/scss/actividades-complementarias.scss */
   .info__complementarias h3 {
     text-align: center;
@@ -87,7 +87,7 @@ section.banner__complementarias {
 
 /* line 86, ../../Reiki-ClaudiaCimadoro/scss/actividades-complementarias.scss */
 .info__complementarias--full {
-  padding-top: 20px;
+  padding: 20px;
   padding-bottom: 15px;
   text-align: center; }
   /* line 90, ../../Reiki-ClaudiaCimadoro/scss/actividades-complementarias.scss */
@@ -99,6 +99,9 @@ section.banner__complementarias {
   /* line 96, ../../Reiki-ClaudiaCimadoro/scss/actividades-complementarias.scss */
   .info__complementarias--full a:hover {
     border-bottom: solid 2px #ff0055; }
+  /* line 99, ../../Reiki-ClaudiaCimadoro/scss/actividades-complementarias.scss */
+  .info__complementarias--full h5 {
+    color: #000000; }
 
 /*
 @media (min-width: 992px) {
@@ -111,7 +114,7 @@ section.banner__complementarias {
     }
 }*/
 @media (max-width: 480px) {
-  /* line 113, ../../Reiki-ClaudiaCimadoro/scss/actividades-complementarias.scss */
+  /* line 116, ../../Reiki-ClaudiaCimadoro/scss/actividades-complementarias.scss */
   .texto__complementarias h2 {
     font-size: 2.5rem; } }
 

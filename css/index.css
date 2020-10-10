@@ -110,7 +110,7 @@ section.banner7 {
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.548);
   color: #000000;
   text-align: center;
-  padding: 20px 5px; }
+  padding: 20px; }
   /* line 113, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .info1 h3 {
     color: #7500ac; }
@@ -160,7 +160,7 @@ section.banner7 {
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.548);
   color: #ffffff;
   text-align: center;
-  padding: 20px 5px; }
+  padding: 20px; }
   /* line 163, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .info2 a {
     text-decoration: none;
