@@ -374,8 +374,22 @@ p {
   line-height: 1.5;
   margin: 0; }
 
-@media (max-width: 768px) {
+/* line 205, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+section.galeria {
+  padding: 25px; }
   /* line 207, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+  section.galeria .card-deck {
+    padding-bottom: 15px; }
+    /* line 209, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+    section.galeria .card-deck .card {
+      border-radius: 15px;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5); }
+      /* line 212, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
+      section.galeria .card-deck .card img {
+        border-radius: 15px; }
+
+@media (max-width: 768px) {
+  /* line 221, ../../Reiki-ClaudiaCimadoro/scss/index.scss */
   .texto h2 {
     font-size: 2rem; } }
 

@@ -202,6 +202,20 @@ line-height: 1.5;
 margin: 0;
 }
 
+section.galeria {
+padding: 25px;
+    .card-deck {
+    padding-bottom: 15px;
+        .card {
+        border-radius: 15px;
+        box-shadow: 0 4px 4px 0 rgba(0,0,0,.5);
+            img {
+            border-radius: 15px;
+            }
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .texto {
         h2 {
