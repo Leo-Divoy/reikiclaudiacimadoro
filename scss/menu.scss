@@ -51,11 +51,33 @@ z-index: 1000;
             }   
         }
     }
+    .alianza {
+        min-width: 10%;
+        max-width: 20%;
+    }
 }
 .overlay a:hover, .overlay a:focus {
 color: #ff0055;
 } 
 
+@media (max-width: 992px) {
+    header {
+        .alianza {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 993px) {
+    header {
+    height: 100px;
+        .alianza {
+        min-width: 25%;
+        max-width: 30%;
+        padding-top: 5px;
+        }
+    }
+}
 
 @media screen and (min-width: 400px) {
     header {
@@ -174,9 +196,13 @@ color: #ff0055;
 @media screen and (min-width: 1100px) {
     header {
         .brand {
-        padding-top: 7px;
             img {
             max-width: 25%;
+            }
+            .alianza {
+            min-width: 30%;
+            max-width: 35%;
+            padding-top: 5px;
             }
         }
     }
@@ -185,9 +211,12 @@ color: #ff0055;
 @media screen and (min-width: 1200px) {
     header {
         .brand {
-        padding-top: 1px;
             img {
             max-width: 25%;
+            }
+            .alianza {
+            min-width: 25%;
+            max-width: 30%;
             }
         }
     }
